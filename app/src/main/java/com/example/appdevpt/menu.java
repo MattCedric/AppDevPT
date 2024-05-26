@@ -44,7 +44,10 @@ public class menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Handle navigation to ProfileActivity
+                Intent intent = new Intent(menu.this, Profile.class);
+                startActivity(intent);
             }
         });
+
     }
 }

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/user_profile_background"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+       >
+
+        <TextView
+            android:id="@+id/textViewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFILE"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Profile Image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_picture"
+            android:background="@drawable/circular_background"
+            tools:src="@drawable/profile_picture" />
+
+        <TextView
+            android:id="@+id/textViewNameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matt Cedric Ybanez"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewCouponsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of Coupons:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+           />
+
+        <TextView
+            android:id="@+id/textViewCoupons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewRewardsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rewards:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+           />
+
+        <TextView
+            android:id="@+id/textViewRewards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+          />
+
+        <TextView
+            android:id="@+id/textViewAddressLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+           />
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basak Cebu City"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewContactLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact #:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+           />
+
+        <TextView
+            android:id="@+id/textViewContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="09761229312"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewSocialMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@banyezzz"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+           />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@null"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onBackButtonClick" />
+</androidx.constraintlayout.widget.ConstraintLayout>

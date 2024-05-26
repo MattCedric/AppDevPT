@@ -5,7 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/user_profile_background"
     tools:context=".product">
+
+
 
     <LinearLayout
         android:layout_width="0dp"
@@ -22,6 +25,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:background="@null"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp" />
             <TextView
                 android:id="@+id/textViewProduct"
                 android:layout_width="wrap_content"
@@ -31,6 +46,7 @@
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 android:padding="16dp"/>
+
         </LinearLayout>
 
         <!-- Food Text -->
@@ -63,6 +79,7 @@
                 android:padding="16dp">
 
                 <!-- Example food choices with images -->
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
