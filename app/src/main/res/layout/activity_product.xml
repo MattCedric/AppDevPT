@@ -68,33 +68,33 @@
                     android:layout_height="200dp"
                     android:layout_marginBottom="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_choice_1" />
+                    android:src="@drawable/food1" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginBottom="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_choice_1" />
+                    android:src="@drawable/food2" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginBottom="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_choice_1" />
+                    android:src="@drawable/food3" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/food_choice_1"
+                    android:src="@drawable/food4"
                     android:scaleType="centerCrop"
                     android:layout_marginBottom="16dp"/>
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/food_choice_2"
+                    android:src="@drawable/food5"
                     android:scaleType="centerCrop"
                     android:layout_marginBottom="16dp"/>
 
@@ -138,33 +138,33 @@
                     android:layout_height="200dp"
                     android:layout_marginBottom="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_choice_1" />
+                    android:src="@drawable/drink1" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginBottom="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_choice_1" />
+                    android:src="@drawable/drink2" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginBottom="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_choice_1" />
+                    android:src="@drawable/drink3" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/drink_choice_1"
+                    android:src="@drawable/drink4"
                     android:scaleType="centerCrop"
                     android:layout_marginBottom="16dp"/>
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/drink_choice_2"
+                    android:src="@drawable/drink5"
                     android:scaleType="centerCrop"
                     android:layout_marginBottom="16dp"/>
 
