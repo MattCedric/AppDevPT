@@ -53,15 +53,6 @@
                 android:layout_marginBottom="16dp"/>
 
             <Button
-                android:id="@+id/offers_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Offers"
-                android:backgroundTint="@android:color/black"
-                android:textColor="@android:color/white"
-                android:layout_marginBottom="16dp"/>
-
-            <Button
                 android:id="@+id/cart_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

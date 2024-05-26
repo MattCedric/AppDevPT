@@ -14,7 +14,6 @@ public class menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         Button productsButton = findViewById(R.id.products_button);
-        Button offersButton = findViewById(R.id.offers_button);
         Button cartButton = findViewById(R.id.cart_button);
         Button profileButton = findViewById(R.id.profile_button);
 
@@ -26,17 +25,11 @@ public class menu extends AppCompatActivity {
             }
         });
 
-        offersButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Handle navigation to OffersActivity
-            }
-        });
-
         cartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Handle navigation to CartActivity
+                Intent intent = new Intent(menu.this, cart.class);
+                startActivity(intent);
             }
         });
 
